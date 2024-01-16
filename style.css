@@ -57,7 +57,7 @@ body {
 
 #read-more {
   border-radius: unset;
-  background-color: var(--clr-netural-veryDarkGrayBlue);
+  background-color: var(--clr-primary-red);
   width: 12.5rem;
   padding: 1rem 0;
   text-transform: uppercase;
@@ -65,6 +65,10 @@ body {
   color: var(--clr-netural-offWhite);
   font-weight: var(--fw-normal-x);
   padding: 10px 20px;
+}
+
+#read-more:hover {
+  background-color: var(--clr-netural-veryDarkGrayBlue);
 }
 
 .new {
@@ -91,6 +95,7 @@ body {
   margin-left: 1.2rem;
   color: var(--clr-primary-orange);
   font-size: var(--fs-800);
+  font-weight: var(--fw-bold);
 }
 
 .new .new-list a:hover {
